@@ -1,8 +1,10 @@
 {
   "name": "punk-api-v2",
+  "homepage": "http://khalidhersi.github.io/punk-api-v2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@jamesives/github-pages-deploy-action": "^4.1.7",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
