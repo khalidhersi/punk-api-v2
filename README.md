@@ -7,6 +7,8 @@ The timeframe allowed to complete this project was one week.
 [Check out the live demo here!](https://khalidhersi.github.io/punk-api-v2/)
 
 ![PunkAPI screenshot](https://github.com/khalidhersi/punk-api-v2/blob/main/src/assets/images/punk-api-screenshot.JPG?raw=true)
+
+![PunkAPI screenshot](https://github.com/khalidhersi/punk-api-v2/blob/main/src/assets/images/mobile-view.png?raw=true)
 ____________
 ### Technologies
 
