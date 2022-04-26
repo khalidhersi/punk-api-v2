@@ -1,0 +1,13 @@
+@use "./assets/sass/_variables.scss" as *;
+
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  main {
+    display: flex;
+  }
+}

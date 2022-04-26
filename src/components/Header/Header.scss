@@ -1,0 +1,52 @@
+@use "../../assets/sass/variables" as *;
+@use "../../assets/sass/typography" as *;
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem;
+  background-color: $dark-color;
+  &__logo {
+    width: 75.2px;
+    height: 88.8px;
+  }
+  &__text {
+    color: $light-color;
+    &__title {
+      font-family: $header-font;
+      text-transform: uppercase;
+      font-size: 3rem;
+      margin: 0;
+      font-weight: 500;
+    }
+    &__subtitle {
+      font-size: 1.3rem;
+      margin: 0;
+      font-family: $body-font;
+      text-align: end;
+      color: $accent-color;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    justify-content: flex-start;
+    gap: 1.3rem;
+    padding-bottom: 2.5rem;
+    &__logo {
+      width: 90px;
+      height: 105.6px;
+    }
+    &__text {
+      &__title {
+        font-size: 4rem;
+      }
+      &__subtitle {
+        text-align: left;
+        font-size: 1.73rem;
+      }
+    }
+  }
+}

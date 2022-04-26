@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Brewdog Punk API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a site to allows users to browse the range of Brewdog beverages, and allow them to apply various search filters.
 
-## Available Scripts
+The timeframe allowed to complete this project was one week.
 
-In the project directory, you can run:
+[Check out the live demo here!](https://jasenscode.github.io/punk-api/)
 
-### `npm start`
+![PunkAPI screenshot](https://github.com/jasenscode/punk-api/blob/main/src/assets/images/punk-api-screenshot.JPG?raw=true)
+____________
+### Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML5
+- Sass
+- React
+_____
+### About
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The aim of this project was to build a website using React and an API while utilising all the skills we had learnt on the course so far. This project took place on week 7 of the nology course. This was the toughest project on the course so far for me as I hadn't used React prior to the course at all and we had only been learning it for a week at this point.
 
-### `npm test`
+Within our brief, we were provided with a component tree and a basic reference design spec from which to work off, together with a data file containing a sample of information that would be pulled from the API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Component Tree screenshot](add component tree screenshot here)
 
-### `npm run build`
+Initially I used to data file as opposed to the API to get functionality to map over the data in order to display the cards on the site working. Once this had been done, I implemented use of the API, for which I first used Postman to check the required endpoints were working successfully.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The brief outlined that once the basic site had been created and the beverage cards were able to be rendered on the screen then we should add some filters, the first one being a text search with the page updating as each letter is typed in the search box. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After this was done, further filters were implemented, namely to only render beverages that were brewed before a certain year and those with higher alcohol content. In order to do this, I reviewed the API documentation and found there were different endpoints I could use within the fetch function. This meant that the URL could be altered slightly whenever the relevant filter checkbox was checked.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_____
+### Future fixes
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Implement functionality for more filters
+- Make the ABV and acidity filters a range as opposed to tick box for one value
