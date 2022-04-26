@@ -6,7 +6,7 @@ The timeframe allowed to complete this project was one week.
 
 [Check out the live demo here!](https://jasenscode.github.io/punk-api/)
 
-![PunkAPI screenshot](https://github.com/jasenscode/punk-api/blob/main/src/assets/images/punk-api-screenshot.JPG?raw=true)
+![PunkAPI screenshot](https://github.com/khalidhersi/punk-api-v2/blob/main/src/assets/images/punk-api-screenshot.JPG?raw=true)
 ____________
 ### Technologies
 
@@ -19,8 +19,6 @@ _____
 The aim of this project was to build a website using React and an API while utilising all the skills we had learnt on the course so far. This project took place on week 7 of the nology course. This was the toughest project on the course so far for me as I hadn't used React prior to the course at all and we had only been learning it for a week at this point.
 
 Within our brief, we were provided with a component tree and a basic reference design spec from which to work off, together with a data file containing a sample of information that would be pulled from the API.
-
-![Component Tree screenshot](add component tree screenshot here)
 
 Initially I used to data file as opposed to the API to get functionality to map over the data in order to display the cards on the site working. Once this had been done, I implemented use of the API, for which I first used Postman to check the required endpoints were working successfully.
 
