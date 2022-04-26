@@ -8,7 +8,8 @@ The timeframe allowed to complete this project was one week.
 
 ![PunkAPI screenshot](https://github.com/khalidhersi/punk-api-v2/blob/main/src/assets/images/punk-api-screenshot.JPG?raw=true)
 
-![PunkAPI screenshot](https://github.com/khalidhersi/punk-api-v2/blob/main/src/assets/images/mobile-view.png?raw=true)
+<img src="https://github.com/khalidhersi/punk-api-v2/blob/main/src/assets/images/mobile-view.png?raw=true" alt="mobile view image" width="300" height="620" />
+
 ____________
 ### Technologies
 
