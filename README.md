@@ -20,8 +20,6 @@ The aim of this project was to build a website using React and an API while util
 
 Within our brief, we were provided with a component tree and a basic reference design spec from which to work off, together with a data file containing a sample of information that would be pulled from the API.
 
-![Component Tree screenshot](add component tree screenshot here)
-
 Initially I used to data file as opposed to the API to get functionality to map over the data in order to display the cards on the site working. Once this had been done, I implemented use of the API, for which I first used Postman to check the required endpoints were working successfully.
 
 The brief outlined that once the basic site had been created and the beverage cards were able to be rendered on the screen then we should add some filters, the first one being a text search with the page updating as each letter is typed in the search box. 
